@@ -14,13 +14,13 @@ import argparse
 import threading
 
 _help = """
-python exercício01.py [opção] [valor]
+python network_discovery.py [opção] [valor]
 
 Opções:
     --network       Define a rede a ser mapeada.
 
 Exemplo: 
-        python exercício01.py --network 127.0.0.1/24
+        python network_discovery.py --network 127.0.0.1/24
 """
 
 parse = argparse.ArgumentParser(description="Mapeamento de dispositivos de rede.")
